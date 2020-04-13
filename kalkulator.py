@@ -6,19 +6,19 @@ print ('#        https://github.com/Ryuzu23       #')
 print ('###########################################\n')
 
 def tambah(a, b):
-	print ('Jawabannya adalah: ')
+	print ('Jawabannya adalah: \n')
 	print (a, '+',b, '=',a + b)
 	return
 def kurang(c, d):
-	print ('Jawabannya adalah: ')
+	print ('Jawabannya adalah: \n')
 	print (c, '-',d, '=',c - d)
 	return
 def kali(e, f):
-	print ('Jawabannya adalah: ')
+	print ('Jawabannya adalah: \n')
 	print (e, 'x',f, '=',e * f)
 	return
 def bagi(g, h):
-	print ('Jawabannya adalah: ')
+	print ('Jawabannya adalah: \n')
 	print (g, ':',h, '=',g / h)
 	return
 
@@ -34,23 +34,23 @@ def menu():
 			print ('3. Perkalian')
 			print ('4. Pembagian')
 			print ('5. Keluar\n')
-			pilih = input('Pilih angka 1, 2, 3, 4,atau 5 lalu tekan Enter: ')
+			pilih = input('Pilih angka 1, 2, 3, 4,atau 5 lalu tekan Enter: \n')
 
 			if pilih == '1':
 				a = float(input('Angka: '))
-				b = float(input('Ditambah dengan angka: '))
+				b = float(input('Ditambah dengan angka: \n'))
 				tambah(a, b)
 			elif pilih == '2':
 				c = float(input('Angka: '))
-				d = float(input('Dikurangi dengan angka: '))
+				d = float(input('Dikurangi dengan angka: \n'))
 				kurang(c, d)
 			elif pilih == '3':
 				e = float(input('Angka: '))
-				f = float(input('Dikali dengan angka: '))
+				f = float(input('Dikali dengan angka: \n'))
 				kali(e, f)
 			elif pilih == '4':
 				g = float(input('Angka: '))
-				h = float(input('Dibagi dengan angka: '))
+				h = float(input('Dibagi dengan angka: \n'))
 				bagi(g, h)
 			elif pilih == '5':
 				quit = True
