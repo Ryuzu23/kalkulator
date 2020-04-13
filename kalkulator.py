@@ -33,7 +33,7 @@ def menu():
 			print ('2. Pengurangan')
 			print ('3. Perkalian')
 			print ('4. Pembagian')
-			print ('5. Keluar')
+			print ('5. Keluar\n')
 			pilih = input('Pilih angka 1, 2, 3, 4,atau 5 lalu tekan Enter: ')
 
 			if pilih == '1':
